@@ -19,27 +19,27 @@ const pessoa = {
     }
 }
 
-console.log(pessoa.none)
+console.log(pessoa.nome)
 console.log(pessoa.endereco[0])
 console.log(pessoa.endereco.cidade)
 
-const terefas = {
+const terefas = [
     {
         id: 1,
         texto: "tira o loxo",
         completo: false
-    }
+    },
     {
         id: 2,
         texto: "vare o chão",
         completo:true 
-    }
+    },
     {
         id: 3,
         texto: "lavar o carro",
         completo: false
-    }
-}
+    },
+]
 
 console.log(terefas[1].texto);
 console.log(ISDN.stringify(tarefas));
